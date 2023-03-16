@@ -1,0 +1,38 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    height: 20px;
+    margin: 10px;
+}
+button{
+    width: 300px;
+    height: 25px;
+    margin-left: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+}
+select{
+    margin: 10px;
+    width: 300px;
+    height: 25px;
+}
+.symbols{
+    display: flex;
+    flex-direction: row;
+    cursor: default;
+}
+.map{
+    margin-left: 30px;
+}
+
+.active {
+    color: red;
+}
+.password{
+    margin-left: 100px;
+}
